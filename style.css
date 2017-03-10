@@ -1,0 +1,22 @@
+html, body {
+  /* Give the body and html elements a height of 100%, remove any default margin and padding around them */
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+div#wrapper {
+  /* Make the wrapper at least 80% of viewport height. It still stretches as the content grows */
+  min-height: 80%;
+  /* Increase padding-bottom to give the content more distance from the top of the footer */
+  padding-bottom: 10px;
+}
+
+footer.footer {
+  /* overflow auto helps footer stay at the bottom of the page no matter the size of its content */
+  overflow: auto;
+  background: #adbad4;
+  /* Make the footer at least 20% of viewport height. It still stretches as the content grows */
+  min-height: 20%;
+}
