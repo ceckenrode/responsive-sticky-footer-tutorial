@@ -31,3 +31,7 @@ footer.footer .footer-bottom {
   position: absolute;
   bottom: 0;
 }
+
+footer.footer a {
+  text-decoration: none;
+}
